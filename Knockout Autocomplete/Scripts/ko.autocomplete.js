@@ -1,9 +1,6 @@
 ﻿/*
 About the author: http://www.andreasgustafsson.se
-Source code: 
-Example:
 */
-
 
 var viewModel = new SearchResultViewModel();
 var focusedItem = -1;
