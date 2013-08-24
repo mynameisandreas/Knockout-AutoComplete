@@ -2,19 +2,20 @@
 <package >
   <metadata>
     <id>KnockoutAutocomplete</id>
-    <version>1.0</version>
+    <version>1.2</version>
     <title>Knockout Autocomplete</title>
     <authors>Andreas Gustafsson</authors>
     <owners>Andreas Gustafsson</owners>
     <projectUrl>https://github.com/angustafsson/Knockout-AutoComplete</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Autocomplete binding for KnockoutJS</description>
-    <releaseNotes>First release of the binding</releaseNotes>
+    <releaseNotes>Added style for package</releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>Knockout, KnockoutJS, Javascript, Bindings</tags>
   </metadata>
   <files>
-    <file src="bin\Scripts\ko.autocomplete.js" target="content\Scripts" />
-    <file src="bin\README-KNOCKOUT-AUTOCOMPLETE.txt" target="content" />
+    <file src="Scripts\ko.autocomplete.js" target="content\Scripts" />
+    <file src="Content\ko.binding.style.css" target="content\Content" />
+    <file src="README-KNOCKOUT-AUTOCOMPLETE.txt" target="content" />
   </files>
 </package>

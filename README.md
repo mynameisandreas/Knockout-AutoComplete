@@ -8,7 +8,8 @@ How to use the Knockout Autocompletet binding in 6 simple ways.
 1. Get the binding from nuget and install it: 
 	Install-package KnockoutAutocomplete
 
-2. Reference the ko.autocomplete.js file to your site: 
+2. Reference the ko.autocomplete.js file to your site and css: 
+	<link href="~/Content/ko.binding.style.css" rel="stylesheet" />
 	<script src="~/Scripts/ko.autocomplete.js"></script>
 
 3. Add a element that uses the binding: 

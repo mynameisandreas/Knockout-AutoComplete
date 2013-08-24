@@ -121,7 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Content Include="Content\Style.css" />
+    <Content Include="Content\ko.binding.style.css" />
     <Content Include="Global.asax" />
     <Content Include="Knockout Autocomplete.nuspec" />
     <Content Include="README.md" />
