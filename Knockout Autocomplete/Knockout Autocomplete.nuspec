@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>KnockoutAutocomplete</id>
+    <version>1.0</version>
+    <title>Knockout Autocomplete</title>
+    <authors>Andreas Gustafsson</authors>
+    <owners>Andreas Gustafsson</owners>
+    <projectUrl>http://blog.andreasgustafsson.se/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Autocomplete binding for KnockoutJS</description>
+    <releaseNotes>First release of the binding</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>Knockout, KnockoutJS, Javascript, Bindings</tags>
+  </metadata>
+  <files>
+    <file src="bin\Scripts\ko.autocomplete.js" target="content\Scripts" />
+    <file src="bin\README-KNOCKOUT-AUTOCOMPLETE.txt" target="content" />
+  </files>
+</package>

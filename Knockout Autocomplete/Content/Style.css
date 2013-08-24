@@ -1,0 +1,4 @@
+﻿.knockout-autoComplete { list-style: none; margin: 0; padding: 5px 0;list-style-type: none;}
+    .knockout-autoComplete li { padding: 5px 0 5px 5px; margin: 0; }
+        .knockout-autoComplete li:hover { cursor: pointer; background: #eeeeee; }
+.autocomplete-selected { background: #eeeeee; }

@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Knockout Autocomplete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Knockout Autocomplete</h2>
+
+<div id="content-wrapper">
+    <input type="text" data-bind="autoComplete: search, settings: { url : '@Url.Action("FetchSearchResults", "Home")', selectCallback : selectItemCallback}"/>
+</div>
+
+@section javascript
+{
+    <script type="text/javascript">
+
+        (function() {
+            function viewModel() {
+                var self = this;
+                //throttle only so we dont send requests to server
+                //every key down
+                self.search = ko.observable('').extend({ throttle: 300 });
+                
+                //item select callback function
+                self.selectItemCallback = function (data) {
+                    //dosomething with the selected item
+                    console.log(data);
+                };
+            };
+
+            //apply bindings
+            ko.applyBindings(new viewModel(), document.getElementById('content-wrapper'));
+
+        })();
+
+    </script>
+}
