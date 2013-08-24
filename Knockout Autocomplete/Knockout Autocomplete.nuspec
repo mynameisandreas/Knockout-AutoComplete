@@ -6,7 +6,7 @@
     <title>Knockout Autocomplete</title>
     <authors>Andreas Gustafsson</authors>
     <owners>Andreas Gustafsson</owners>
-    <projectUrl>http://blog.andreasgustafsson.se/</projectUrl>
+    <projectUrl>https://github.com/angustafsson/Knockout-AutoComplete</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Autocomplete binding for KnockoutJS</description>
     <releaseNotes>First release of the binding</releaseNotes>
